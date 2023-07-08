@@ -47,7 +47,7 @@ export default async function middleware(req: NextRequest) {
     // we're redirecting to the blog post for this demo, but you can change this to
     // rewrite to the /home folder if you want to use the home page (or whatever you wanna name it)
     return NextResponse.redirect(
-      "https://vercel.com/blog/platforms-starter-kit",
+      "/home",
     );
   }
 
